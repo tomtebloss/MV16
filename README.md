@@ -13,23 +13,13 @@ It was included with the game B.A.T. (Bureau of Astral Troubleshooters)
 
 ---
 
-<img title="Orignal Cartridge opened cardboard box" style="width:49%" align=top src="Pics/original_cart_opened.jpg">  <img title="Nine versions of MV16 Cartridge" style="width:49%" align=top src="Pics/9_PCB_tilted.png">
+<img title="Orignal Cartridge opened cardboard box" style="width:43.1%" align=top src="Pics/original_cart_opened.jpg">  <img title="Nine versions of MV16 Cartridge" style="width:56%" align=top src="Pics/9_PCB_tilted.png">
 
 ---
 
 ## Smaller then original  
 
-I bought the original box with cartridge with the intention to reverse engineer it. The new SMT version is more then half as long as the original.
-
----
-
-## Cartridge Orientation
-> [!CAUTION] 
-> <img title="Plugged in a Mega ST4" style="width:12%" align=right src="Pics/plugged_in.jpg">
-> ${\color{red}All \space the \space components \space should \space be \space faceing \space down \space when \space inserting \space the \space cartidge \space in \space the \space port! }$  
-> 
-> I can't stress this enough. As the original, the cartridge "seems" to be upside down. I followed the same design. The silkscreen says what is top and bottom as well.
-
+I bought the original box with cartridge a while ago with the intention to reverse engineer it. The new SMT version was done around summer 2020 (covid time) and is more then half as long as the original.
 
 ---
 
@@ -37,21 +27,19 @@ I bought the original box with cartridge with the intention to reverse engineer 
 
 Bill of material (BOM is included in each gerber zip as well as text files in the 'Gerbers' directory)
 
-| Quantity | Value              | Package THT      | Package SMT                        | Device/Description                                            |
-| :---     | :---               | :---             | :---                               |:---                                                           |
-| 2        | 0,1 µF             | C050-024X044     | C0805                              | Capacitor, ceramic (THT: 5mm leg spacing, SMT: 0805)          |
-| 4        | 1 µF               | C050-024X044     | C0805                              | Capacitor, ceramic (THT: 2,5mm leg spacing, SMT: 0805)        |
-| 2        | 10 µF, 16V or more | E2.5-5           | SANYO-OSCON_SMD_B6<br>ø5x5.4mm     | Electrolytic Capacitor,<br>(THT: 2,5mm leg spacing, ø5x11mm)<br>(SMT: B6 ø5x5,4mm)   |
-| 2        | 47 µF, 16V or more | E2.5-5           | SANYO-OSCON_SMD_C6<br>ø6.3x5.8mm   | Electrolytic Capacitor,<br>(THT: 2,5mm leg spacing, ø5x11mm)<br>(SMT: B6 ø6,3x5,8mm) |
-| 2        | 10 kΩ              | 0207/10          | R0805                              | Resistor, Carbon film<br>(THT: 0,25W 5% tolerance, SMT: 0805)    |
-| 2        | 100 kΩ             | 0207/10          | R0805                              | Resistor, Carbon film<br>(THT: 0,25W 5% tolerance, SMT: 0805)    |
-| 1        | 390 Ω              | 0207/10          | R0805                              | Resistor, Carbon film<br>(THT: 0,25W 5% tolerance, SMT: 0805)    |
-| 2        | 3,9 kΩ             | 0207/10          | R0805                              | Resistor, Carbon film<br>(THT: 0,25W 5% tolerance, SMT: 0805)    |
-| 2        | 20 kΩ (1%)         | 0207/10          | R0805                              | Resistor, Metal film<br>(THT: 0,6W 1% tolerance, SMT:0805)<br>(All 0805 is 1% so it doesn't apply here) |
-| 1        | XXX7528            | DIP20            | SOIC127P1032X265-20N<br>SOIC-20    | AD7528, TLC7528 or MX7528. 2 Channel Digital to Analog Converters - CMOS 8-Bit Buffered Multiplying DAC. AD7528 (Analog Devices), TLC7528 (Texas Instrument) or MX7528 (Maxim) will also work. Original have AD7528. I have tried with AD and TLC. |
-| 2        | THT: BC549B, SMT: BC849B | TO-92            | SOT95P237X125-3N (SOT-23)          | Bipolar Transistor. BJT, 30V, 100mA, NPN. (SMT: I have tried with BC848B as well and it works but sounds a bit different. 849 is low noice. Use 849 if you can)
-| 1        | BZY88-C2V7         | DO-35            | MELF3516 or MELF_DO-213AB, SOD80   | Zener Diode 2.7V 500mW (THT: I used BZX55C2V7 in my test built) (SMT: Choose one of the two footprint. 0,5W power dissipation. 2,7V. ±5%. I used a BZV55B2V7 for this one.)
-| 2        | RCA Jack           | RCJ-041          | RCJ-041 or WBTOR1                  | THT and v1: Red:RCJ-042, White:RCJ-043 - RCA Connector Jack Mono 3.2mm R/A [AliEx](https://www.aliexpress.com/w/wholesale-RCA%2525252d105.html), v2: WBTOR1 Lumberg. [AliEx](https://www.aliexpress.com/w/wholesale-AV%2525252d8.4%2525252d9-.html) |
+| Quantity | Value                    | Package             | Device/Description                                            |
+| :---     | :---                     | :---                | :---                                                          |
+| 9        | 4.7 kΩ<br>(1% or better) | EXBV8V              | Capacitor, ceramic (THT: 5mm leg spacing, SMT: 0805)          |
+| 1        | 10 kΩ                    | R0805               | Capacitor, ceramic (THT: 2,5mm leg spacing, SMT: 0805)        |
+| 1        | 100 kΩ                   | R0805               | Electrolytic Capacitor,<br>(THT: 2,5mm leg spacing, ø5x11mm)<br>(SMT: B6 ø5x5,4mm)   |
+| 2        | 10 µF                    | UD-5X5,8_NICHICON   | Electrolytic Capacitor,<br>(THT: 2,5mm leg spacing, ø5x11mm)<br>(SMT: B6 ø6,3x5,8mm) |
+| 1        | 100 µF                   | UD-6,3X7,7_NICHICON | Resistor, Carbon film<br>(THT: 0,25W 5% tolerance, SMT: 0805) |
+| 1        | 100 nF                   | E/7260-38_NP        | Resistor, Carbon film<br>(THT: 0,25W 5% tolerance, SMT: 0805) |
+| 1        | 150 nF                   | E/7260-38_NP        | Resistor, Carbon film<br>(THT: 0,25W 5% tolerance, SMT: 0805) |
+| 1        | 1N4148                   | SOD323              | Resistor, Carbon film<br>(THT: 0,25W 5% tolerance, SMT: 0805) |
+| 1        | 35RASMT2BHNTRX           | 35RASMT2BHNTRX      | Resistor, Metal film<br>(THT: 0,6W 1% tolerance, SMT:0805)<br>(All 0805 is 1% so it doesn't apply here) |
+| 2        | 74XX374DW                | SOIC-20W            |  AD7528, TLC7528 or MX7528. 2 Channel Digital to Analog Converters - CMOS 8-Bit Buffered Multiplying DAC. AD7528 (Analog Devices), TLC7528 (Texas Instrument) or MX7528 (Maxim) will also work. Original have AD7528. I have tried with AD and TLC. |
+| 1        | LM386M                   | SOIC-08             | Bipolar Transistor. BJT, 30V, 100mA, NPN. (SMT: I have tried with BC848B as well and it works but sounds a bit different. 849 is low noice. Use 849 if you can) |
 
 ---
 
