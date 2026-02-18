@@ -13,8 +13,7 @@ It was included with the game B.A.T. (Bureau of Astral Troubleshooters)
 
 ---
 
-<img title="Orignal Cartridge with components" style="width:50%" align=center src="Pics/orginal_cart_opened.png"> 
-<img title="Nine versions of MV16 Cartridge" style="width:49%" align=center src="Pics/9_PCB_tilted.png">
+<img title="Orignal Cartridge opened cardboard box" style="width:49%" align=top src="Pics/original_cart_opened.jpg">  <img title="Nine versions of MV16 Cartridge" style="width:49%" align=top src="Pics/9_PCB_tilted.png">
 
 ---
 
