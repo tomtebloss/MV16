@@ -3,17 +3,18 @@ MV16
 </h1>
 
 <h2 align="center">
-Atari ST MV16 cartridge by UBISOFT. Remake from original.
+Atari ST MV16 cartridge by UBISOFT. Remake from original.<br>
 It was included with the game B.A.T. (Bureau of Astral Troubleshooters)
 </h2>
 
 ---
  
-<img title="Original MV16 Cartridge" style="width:43%" align=top src="Pics/Original_cart.jpg">  <img title="Original B.A.T Box" style="width:56.4%" align=top src="Pics/Box_3.jpg">  
+<img title="Original MV16 Cartridge" style="width:44%" align=top src="Pics/Original_cart.jpg">  <img title="Original B.A.T Box" style="width:55.5%" align=top src="Pics/Box_3.jpg">  
 
 ---
- 
-<img title="Nine versions of MV16 Cartridge" style="width:100%" align=center src="Pics/9_PCB_tilted.png">
+
+<img title="Orignal Cartridge with components" style="width:50%" align=center src="Pics/orginal_cart_opened.png"> 
+<img title="Nine versions of MV16 Cartridge" style="width:49%" align=center src="Pics/9_PCB_tilted.png">
 
 ---
 
