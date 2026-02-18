@@ -27,19 +27,19 @@ I bought the original box with cartridge a while ago with the intention to rever
 
 Bill of material (BOM is included in each gerber zip as well as text files in the 'Gerbers' directory)
 
-| Quantity | Value                    | Package             | Device/Description                                            |
-| :---     | :---                     | :---                | :---                                                          |
-| 9        | 4.7 kΩ<br>(1% or better) | EXBV8V              | Capacitor, ceramic (THT: 5mm leg spacing, SMT: 0805)          |
-| 1        | 10 kΩ                    | R0805               | Capacitor, ceramic (THT: 2,5mm leg spacing, SMT: 0805)        |
-| 1        | 100 kΩ                   | R0805               | Electrolytic Capacitor,<br>(THT: 2,5mm leg spacing, ø5x11mm)<br>(SMT: B6 ø5x5,4mm)   |
-| 2        | 10 µF                    | UD-5X5,8_NICHICON   | Electrolytic Capacitor,<br>(THT: 2,5mm leg spacing, ø5x11mm)<br>(SMT: B6 ø6,3x5,8mm) |
-| 1        | 100 µF                   | UD-6,3X7,7_NICHICON | Resistor, Carbon film<br>(THT: 0,25W 5% tolerance, SMT: 0805) |
-| 1        | 100 nF                   | E/7260-38_NP        | Resistor, Carbon film<br>(THT: 0,25W 5% tolerance, SMT: 0805) |
-| 1        | 150 nF                   | E/7260-38_NP        | Resistor, Carbon film<br>(THT: 0,25W 5% tolerance, SMT: 0805) |
-| 1        | 1N4148                   | SOD323              | Resistor, Carbon film<br>(THT: 0,25W 5% tolerance, SMT: 0805) |
-| 1        | 35RASMT2BHNTRX           | 35RASMT2BHNTRX      | Resistor, Metal film<br>(THT: 0,6W 1% tolerance, SMT:0805)<br>(All 0805 is 1% so it doesn't apply here) |
-| 2        | 74XX374DW                | SOIC-20W            |  AD7528, TLC7528 or MX7528. 2 Channel Digital to Analog Converters - CMOS 8-Bit Buffered Multiplying DAC. AD7528 (Analog Devices), TLC7528 (Texas Instrument) or MX7528 (Maxim) will also work. Original have AD7528. I have tried with AD and TLC. |
-| 1        | LM386M                   | SOIC-08             | Bipolar Transistor. BJT, 30V, 100mA, NPN. (SMT: I have tried with BC848B as well and it works but sounds a bit different. 849 is low noice. Use 849 if you can) |
+| Quantity | Parts    | Value                    | Package             | Device/Description                                |
+| :---     | :---     | :---                     | :---                | :---                                              |
+| 9        | RN1-RN9  | 4.7 kΩ<br>(1% or better) | EXBV8V              | Array Chip Resistor. Use 1% or better if you can  |
+| 1        | R1       | 10 kΩ                    | R0805               | Resistor, Carbon film                             |
+| 1        | R2       | 100 kΩ                   | R0805               | Resistor, Carbon film                             |
+| 2        | C1, C2   | 10 µF                    | UD-5X5,8_NICHICON   | Electrolytic Capacitor                            |
+| 1        | C3       | 100 µF                   | UD-6,3X7,7_NICHICON | Electrolytic Capacitor                            |
+| 1        | C4       | 33 nF                    | E/7260-38_NP        | Film Capacitor, Polyphenylene Sulfide (PPS), Metallized - Stacked               |
+| 1        | C5       | 150 nF                   | E/7260-38_NP        | Film Capacitor, Polyester, Polyethylene Naphthalate (PEN), Metallized - Stacked |
+| 1        | D1       | 1N4148                   | SOD323              | Schottky barrier diode                            |
+| 1        | J1       | 35RASMT2BHNTRX           | 35RASMT2BHNTRX      | 3.5mm phone jack, surface mount                   |
+| 2        | IC1, IC2 | 74XX374DW                | SOIC-20W            | Octal D type transparent LATCH, edge triggered. HCT, LS |
+| 1        | IC3      | LM386M                   | SOIC-08             | Low Voltage Audio Power Amplifier. I used LM386MX |
 
 ---
 
