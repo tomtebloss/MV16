@@ -9,7 +9,7 @@ It was included with the game B.A.T. (Bureau of Astral Troubleshooters)
 
 ---
  
-<img title="Original MV16 Cartridge" style="width:44%" align=top src="Pics/Original_cart.jpg"> <img title="Original B.A.T Box" style="width:55.5%" align=top src="Pics/Box_3.jpg">  
+<img title="Original MV16 Cartridge" style="width:44%" align=top src="Pics/Original_cart.jpg"> <img title="Original B.A.T Box" style="width:55.4%" align=top src="Pics/Box_3.jpg">  
 
 ---
 
@@ -44,6 +44,10 @@ Bill of material (BOM is included in each gerber zip as well as text files in th
 ---
 
 ## Enclosure
+
+<h1 align="center">
+<img title="PCB top side" style="width:36%" align=top src="Pics/MV16_top.png">                <img title="PCB bottom side" style="width:36%" align=top src="Pics/MV16_bottom.png">
+</h1>
 
 There is no enclosure for this. If anyone makes one, please contact me so I can add it. There is two 3mm holes that has been added on the PCB that can be used for this.
 
