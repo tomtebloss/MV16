@@ -19,7 +19,7 @@ It was included with the game B.A.T. (Bureau of Astral Troubleshooters)
 
 ## Smaller then original  
 
-I bought the original box with cartridge a while ago with the intention to reverse engineer it. The new SMT version was done around summer 2020 (covid time) and is more then half as long as the original.
+I bought the original box with cartridge a while ago with the intention to reverse engineer it. The new SMT version was done around summer 2020 (peak covid time) and is more then half as long as the original. The cartridge is a 12 bit resistor ladder with a amplifier chip. Very cheap with cardboard enclosure for the cartridge. The original seem to use very specific capacitor. I don't know if that is needed or make the sound better. The sound is pretty terrible but better then YM on the ST I guess. Build [Microdeal Stereo Playback](https://github.com/tomtebloss/Microdeal_Stereo_Playback) if you want better sound, the MV16 is noisy.
 
 ---
 
@@ -29,16 +29,16 @@ Bill of material (BOM is included in each gerber zip as well as text files in th
 
 | Quantity | Parts    | Value                    | Package             | Device/Description                                |
 | :---     | :---     | :---                     | :---                | :---                                              |
-| 9        | RN1-RN9  | 4.7 kΩ<br>(1% or better) | EXBV8V              | Array Chip Resistor. Use 1% or better if you can  |
+| 9        | RN1-RN9  | 4.7 kΩ<br>(1% or better) | TC164-FR-074K7L     | Array Chip Resistor. Use 1% or better if you can  |
 | 1        | R1       | 10 kΩ                    | R0805               | Resistor, Carbon film                             |
 | 1        | R2       | 100 kΩ                   | R0805               | Resistor, Carbon film                             |
-| 2        | C1, C2   | 10 µF                    | UD-5X5,8_NICHICON   | Electrolytic Capacitor                            |
-| 1        | C3       | 100 µF                   | UD-6,3X7,7_NICHICON | Electrolytic Capacitor                            |
-| 1        | C4       | 33 nF                    | E/7260-38_NP        | Film Capacitor, Polyphenylene Sulfide (PPS), Metallized - Stacked               |
-| 1        | C5       | 150 nF                   | E/7260-38_NP        | Film Capacitor, Polyester, Polyethylene Naphthalate (PEN), Metallized - Stacked |
-| 1        | D1       | 1N4148                   | SOD323              | Schottky barrier diode                            |
+| 2        | C1, C2   | 10 µF                    | UD-5X5,8_NICHICON   | Electrolytic Capacitor, 50V on or higher, I used EEE-FK1H100UR                       |
+| 1        | C3       | 100 µF                   | UD-6,3X7,7_NICHICON | Electrolytic Capacitor, 16V or higher, EEE-1VA101XP                                  |
+| 1        | C4       | 33 nF                    | E/7260-38_NP, 2416  | Film Capacitor, Polyphenylene Sulfide (PPS), Metallized - Stacked, 100V              |
+| 1        | C5       | 150 nF                   | E/7260-38_NP, 2416  | Film Capacitor, Polyester, Polyethylene Naphthalate (PEN), Metallized - Stacked, 63V |
+| 1        | D1       | 1N4148WT                 | SOD523              | Schottky barrier diode                            |
 | 1        | J1       | 35RASMT2BHNTRX           | 35RASMT2BHNTRX      | 3.5mm phone jack, surface mount                   |
-| 2        | IC1, IC2 | 74XX374DW                | SOIC-20W            | Octal D type transparent LATCH, edge triggered. HCT, LS |
+| 2        | IC1, IC2 | 74XX374DW                | SOIC-20W            | Octal D type transparent LATCH, edge triggered. I used HCT. LS on original|
 | 1        | IC3      | LM386M                   | SOIC-08             | Low Voltage Audio Power Amplifier. I used LM386MX |
 
 ---
@@ -61,27 +61,21 @@ There is no enclosure for this. If anyone makes one, please contact me so I can 
 | SMT: The components are crammed together in a grid which corresponds to the silkscreen grid. Otherwise just look at the picture of the board you choose to build. | <img title="SMT v2 pcb, bottom" style="width:29%" src="Pics/placement.jpg"> |
 ---
 
-The disk that was included in the box can be found at [Atari Mania](https://www.atarimania.com/utility-atari-st-playback_25563.html)<br>
-Label for cartridge (size ca: 39,6 mm x 57 mm) is included in the [label](Labels/Sticker%2039,6mmx57mm.jpg) folder. [PDF with multiple labels](Labels/Microdeal%20Stereo%20Playback%20label.pdf) <br>
+## Links and info
+
+I don't know if any cracked version of B.A.T can be used with the cartridge. [Scumm-VM-Lite](https://github.com/agranlund/ScummST) can be used with MV16 <br>
+[Built video](https://www.youtube.com/watch?v=QhzbAAYEVPo) by Gadget UK. [Demonstrating the MV16](https://www.youtube.com/watch?v=1RnMYJRYJr0) with Scumm-VM-Lite.
 More photos can be found in the [Pics](Pics/) folder. <br>
-Datasheet for some of the components used in the original or the new design can be found in the [Datasheet](Datasheet/) folder. <br>
-All three PCB unpopulated: [TOP](Pics/3v_pcb_top.jpg), [BOTTOM](Pics/3v_pcb_bottom.jpg). <br>
-[Schematics](Schematics/Microdeal%20Stereo%20Playback_schematics.pdf) and [Manual](Manual/Microdeal%20Stereo%20Playback%20manual.pdf) scanned by me. Also the box and other material included in the box can be found in the [Scanned](Scanned/) folder.
+Datasheet for some of the components used in the new design can be found in the [Datasheet](Datasheet/) folder. <br>
+[Original cartridge pics](Pics/MV16_original_PCB_pics.rar) with all the components desoldered from PCB. <br>
+[Schematics](Schematics/MV16_v1.4_schematics.pdf) and [gerbers](Gerber/MV16_v1.4_gerber.zip).
 
 ---
 
 ## Testing
 
-I used HexTracker v0.849B to test the cartridge. [ScummVM lite](https://www.happydaze.se/scummvm-lite-atari/) (Atari) should also work. There is other trackers that also works. 
+There is a couple of mod-trackers that can be used with this cartridge. [ScummVM lite](https://www.happydaze.se/scummvm-lite-atari/) (Atari) also works. 
 
 ---
 
-PCB made by Daniel Guldkrans aka DoG in Eagle November 2025.
-
-
-[Through hole]: Gerbers/Microdeal_Stereo_Playback_v1.21_THT.zip
-[THT BOM]: Gerbers/Microdeal_Stereo_Playback_v1.21_THT_BOM.txt
-[Surface Mount v1]: Gerbers/Microdeal_Stereo_Playback_SMT_v1.21_v1.zip
-[SMT v1 BOM]: Gerbers/Microdeal_Stereo_Playback_SMT_v1.21_v1_BOM.txt
-[Surface Mount v2]: Gerbers/Microdeal_Stereo_Playback_SMT_v1.21_v2.zip
-[SMT v2 BOM]: Gerbers/Microdeal_Stereo_Playback_SMT_v1.21_v2_BOM.txt
+PCB made by Daniel Guldkrans aka DoG in Eagle july 2020.
