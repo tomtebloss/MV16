@@ -62,6 +62,7 @@ Datasheet for some of the components used in the new design can be found in the 
 [Original cartridge pics](Pics/MV16_original_PCB_pics.rar) with all the components desoldered from PCB. <br>
 [Schematics](Schematics/MV16_v1.4_schematics.pdf) and [gerbers](Gerber/MV16_v1.4_gerber.zip).
 Build blog can be found on [Exxos forum](https://www.exxosforum.co.uk/forum/viewtopic.php?t=3005). I do not sell these any more!
+Eagle v9.6.2 [board file](Gerber/MV16_v1.4.brd) and [schematics file](Gerber/MV16_v1.4.sch) is also available.
 
 ---
 
