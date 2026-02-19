@@ -32,10 +32,10 @@ Bill of material (BOM is included in each gerber zip as well as text files in th
 | 9        | RN1-RN9  | 4.7 kΩ<br>(1% or better) | TC164-FR-074K7L     | Array Chip Resistor. Use 1% or better if you can  |
 | 1        | R1       | 10 kΩ                    | R0805               | Resistor, Carbon film                             |
 | 1        | R2       | 100 kΩ                   | R0805               | Resistor, Carbon film                             |
-| 2        | C1, C2   | 10 µF                    | UD-5X5,8_NICHICON   | Electrolytic Capacitor, 50V on or higher, I used EEE-FK1H100UR                       |
-| 1        | C3       | 100 µF                   | UD-6,3X7,7_NICHICON | Electrolytic Capacitor, 16V or higher, EEE-1VA101XP                                  |
-| 1        | C4       | 33 nF                    | E/7260-38_NP, 2416  | Film Capacitor, Polyphenylene Sulfide (PPS), Metallized - Stacked, 100V              |
-| 1        | C5       | 150 nF                   | E/7260-38_NP, 2416  | Film Capacitor, Polyester, Polyethylene Naphthalate (PEN), Metallized - Stacked, 63V |
+| 2        | C1, C2   | 10 µF                    | UD-5X5,8_NICHICON   | Electrolytic Capacitor, 50V on or higher, I used EEE-FK1H100UR                          |
+| 1        | C3       | 100 µF                   | UD-6,3X7,7_NICHICON | Electrolytic Capacitor, 16V or higher, EEE-1VA101XP                                     |
+| 1        | C4       | 33 nF                    | E/7260-38_NP, 2416  | Film Capacitor, Polyphenylene Sulfide (PPS),<br>Metallized - Stacked, 100V              |
+| 1        | C5       | 150 nF                   | E/7260-38_NP, 2416  | Film Capacitor, Polyester, Polyethylene Naphthalate (PEN),<br>Metallized - Stacked, 63V |
 | 1        | D1       | 1N4148WT                 | SOD523              | Schottky barrier diode                            |
 | 1        | J1       | 35RASMT2BHNTRX           | 35RASMT2BHNTRX      | 3.5mm phone jack, surface mount                   |
 | 2        | IC1, IC2 | 74XX374DW                | SOIC-20W            | Octal D type transparent LATCH, edge triggered. I used HCT. LS on original|
