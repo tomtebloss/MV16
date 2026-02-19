@@ -25,7 +25,7 @@ I bought the original box with cartridge a while ago with the intention to rever
 
 ## BOM
 
-Bill of material (BOM is included in each gerber zip as well as text files in the 'Gerbers' directory)
+Bill of material (BOM is included in gerber zip as well as text files in the 'Gerbers' directory)
 
 | Quantity | Parts    | Value                    | Package             | Device/Description                                |
 | :---     | :---     | :---                     | :---                | :---                                              |
