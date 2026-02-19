@@ -9,11 +9,11 @@ It was included with the game B.A.T. (Bureau of Astral Troubleshooters)
 
 ---
  
-<img title="Original MV16 Cartridge" style="width:44%" align=top src="Pics/Original_cart.jpg">  <img title="Original B.A.T Box" style="width:55.5%" align=top src="Pics/Box_3.jpg">  
+<img title="Original MV16 Cartridge" style="width:44%" align=top src="Pics/Original_cart.jpg"> <img title="Original B.A.T Box" style="width:55.5%" align=top src="Pics/Box_3.jpg">  
 
 ---
 
-<img title="Orignal Cartridge opened cardboard box" style="width:43.1%" align=top src="Pics/original_cart_opened.jpg">  <img title="Nine versions of MV16 Cartridge" style="width:56%" align=top src="Pics/9_PCB_tilted.png">
+<img title="Orignal Cartridge opened cardboard box" style="width:43.1%" align=top src="Pics/original_cart_opened.jpg"> <img title="Nine versions of MV16 Cartridge" style="width:56%" align=top src="Pics/9_PCB_tilted.png">
 
 ---
 
