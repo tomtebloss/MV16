@@ -45,7 +45,7 @@ Bill of material (BOM is included in each gerber zip as well as text files in th
 
 ## Enclosure
 
-There is no enclosure for this. If anyone makes one, please contact me so I can add it. 
+There is no enclosure for this. If anyone makes one, please contact me so I can add it. There is two 3mm holes that has been added on the PCB that can be used for this.
 
 ---
 
