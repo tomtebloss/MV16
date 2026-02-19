@@ -1,9 +1,9 @@
 <h1 align="center">
-MV16
+MV16 smt remake
 </h1>
 
 <h2 align="center">
-Atari ST MV16 cartridge by UBISOFT. Remake from original.<br>
+Atari ST MV16 cartridge by Computer's Dream and released by Ubi Soft.<br>
 It was included with the game B.A.T. (Bureau of Astral Troubleshooters)
 </h2>
 
@@ -49,18 +49,6 @@ There is no enclosure for this. If anyone makes one, please contact me so I can 
 
 ---
 
-## Tips and help
-
-| [Through hole]<br>[THT BOM]      | <img title="Through hole pcb, bottom" style="width:29%" src="Pics/THT_bottom.jpg">  <img title="Through hole pcb, top" style="width:28.4%" src="Pics/THT_top.jpg"> |
-| :--- | :---:  |
-| [Surface Mount v1]<br>[SMT v1 BOM]  | <img title="SMT v1 pcb, bottom" style="width:26.4%" src="Pics/smt_v1_bottom.jpg">  <img title="SMT v1 pcb, top" style="width:28%" src="Pics/smt_v1_top.jpg"> |
-| [Surface Mount v2]<br>[SMT v2 BOM]<br>The RCA jack has a very tight fit. v1 is easier to build. | <img title="SMT v2 pcb, bottom" style="width:26%" src="Pics/smt_v2_bottom.jpg">  <img title="SMT v2 pcb, top" style="width:28.6%" src="Pics/smt_v2_top.jpg"> |
-|                   |   |
-| SMT: I would suggest to use a file to chamfer the edge of the connector to easier put it in the cartridge port. | <img title="SMT v2 pcb, bottom" style="width:29%" src="Pics/45d_chamfer.jpg"> |
-| SMT: Choose one of the diode on the pcb. ${\color{red}Don't \space use \space both!}$ | <img title="SMT v2 pcb, bottom" style="width:29%" src="Pics/diode.jpg"> |
-| SMT: The components are crammed together in a grid which corresponds to the silkscreen grid. Otherwise just look at the picture of the board you choose to build. | <img title="SMT v2 pcb, bottom" style="width:29%" src="Pics/placement.jpg"> |
----
-
 ## Links and info
 
 I don't know if any cracked version of B.A.T can be used with the cartridge. [Scumm-VM-Lite](https://github.com/agranlund/ScummST) can be used with MV16 <br>
@@ -69,6 +57,7 @@ More photos can be found in the [Pics](Pics/) folder. <br>
 Datasheet for some of the components used in the new design can be found in the [Datasheet](Datasheet/) folder. <br>
 [Original cartridge pics](Pics/MV16_original_PCB_pics.rar) with all the components desoldered from PCB. <br>
 [Schematics](Schematics/MV16_v1.4_schematics.pdf) and [gerbers](Gerber/MV16_v1.4_gerber.zip).
+Build blog can be found on [Exxos forum](https://www.exxosforum.co.uk/forum/viewtopic.php?t=3005). I do not sell these any more!
 
 ---
 
@@ -78,4 +67,4 @@ There is a couple of mod-trackers that can be used with this cartridge. [ScummVM
 
 ---
 
-PCB made by Daniel Guldkrans aka DoG in Eagle july 2020.
+PCB routing started by Daniel Guldkrans aka DoG in Eagle around may-june 2020.
