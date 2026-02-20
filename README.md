@@ -68,7 +68,7 @@ Eagle v9.6.2 [board file](Gerber/MV16_v1.4.brd) and [schematics file](Gerber/MV1
 
 ## Testing
 
-There is a couple of mod-trackers that can be used with this cartridge. [ScummVM lite](https://www.happydaze.se/scummvm-lite-atari/) (Atari) also works. 
+HexTracker v0.849B and a couple of other mod-trackers can be used with this cartridge. [ScummVM lite](https://www.happydaze.se/scummvm-lite-atari/) (Atari) also works. 
 
 ---
 
