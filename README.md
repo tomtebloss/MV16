@@ -56,7 +56,7 @@ There is no enclosure for this. If anyone makes one, please contact me so I can 
 ## Links and info
 
 I don't know if any cracked version of B.A.T can be used with the cartridge. [Scumm-VM-Lite](https://github.com/agranlund/ScummST) can be used with MV16 <br>
-[Built video](https://www.youtube.com/watch?v=QhzbAAYEVPo) by Gadget UK. [Demonstrating the MV16](https://www.youtube.com/watch?v=1RnMYJRYJr0) with Scumm-VM-Lite.
+[Built video](https://www.youtube.com/watch?v=QhzbAAYEVPo) by Gadget UK. [Demonstrating the MV16](https://www.youtube.com/watch?v=1RnMYJRYJr0) with Scumm-VM-Lite.<br>
 More photos can be found in the [Pics](Pics/) folder. <br>
 Datasheet for some of the components used in the new design can be found in the [Datasheet](Datasheet/) folder. <br>
 [Original cartridge pics](Pics/MV16_original_PCB_pics.rar) with all the components desoldered from PCB. <br>
