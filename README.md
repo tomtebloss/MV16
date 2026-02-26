@@ -19,7 +19,7 @@ It was included with the game B.A.T. (Bureau of Astral Troubleshooters)
 
 ## Smaller then original  
 
-I bought the original box with cartridge a while ago with the intention to reverse engineer it. The new SMT version was done around summer 2020 (peak covid time) and is more then half as long as the original. The cartridge is a 12 bit resistor ladder with a amplifier chip. Very cheap with cardboard enclosure for the cartridge. The original seem to use very specific capacitor as well. Common for audio circuits perhaps?. I don't know if that is needed or make the sound better. The sound is pretty terrible and noisy but better then YM on the ST I guess. Build [Microdeal Stereo Playback](https://github.com/tomtebloss/Microdeal_Stereo_Playback) if you want better sound.
+I bought the original box with cartridge a while ago with the intention to reverse engineer it. The new SMT version was done around summer 2020 (peak covid time) and is more then half as long as the original. The cartridge is a 12 bit resistor ladder with a amplifier chip. Very cheap with cardboard enclosure for the cartridge. The original seem to use very specific capacitor (Polyphenylene Sulfide, Polyethylene Naphthalate?) as well. Common for audio circuits perhaps? I don't know if that is needed or make the sound better. The sound is pretty terrible and noisy but better then YM on the ST I guess. Build [Microdeal Stereo Playback](https://github.com/tomtebloss/Microdeal_Stereo_Playback) if you want better sound.
 
 ---
 
